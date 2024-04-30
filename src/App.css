@@ -1,0 +1,35 @@
+main{
+    display : flex ;
+    flex-direction : column;
+    place-items : center;
+    max-width: 800 px;
+    margin: 0 auto;
+    font-family: system-ui;
+    margin-left: 200 px ;
+    margin-right: 200 px;
+    background-color: #000;
+}
+section{
+    display : flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 2 rem; 
+    font-family: system-ui;
+}
+sectiona{
+    display : flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 2 rem; 
+    background-color: #fff;
+    color: #000;
+    font-family: system-ui;
+}
+sectiona1{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+section img {
+    max-width: 500px;
+    height: auto;
+}
